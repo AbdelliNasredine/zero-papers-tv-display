@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <title>ZeroPaper</title>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="grid__container">
+        <div class="grid__item-header1"></div>
+        <div class="grid__item-header2">
+          <div class="header">
+            <div class="header__uni">
+              <img src="./assets/uni_logo.png" alt="uni logo" />
+              <p>
+                <span>University of Tahri Mohammed</span> <br />
+                Faculty of Exact Science <br />
+                Department of Mathematics and Informatics
+              </p>
+            </div>
+            <div class="header__club">
+              <img src="./assets/club_logo.png" alt="club image" />
+              <!-- <p>I DEVELOP CLUB</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="grid__item-menu">
+          <div class="menu">
+            <a href="./index.html" class="menu__item">
+              <i class="bi-house-door-fill"></i>
+              <span>Home</span>
+            </a>
+            <a href="./planning.html" class="menu__item">
+              <i class="bi-calendar3"></i>
+              <span>Planning</span>
+            </a>
+            <a href="./map.html" class="menu__item">
+              <i class="bi-map-fill"></i>
+              <span>Map</span>
+            </a>
+          </div>
+        </div>
+        <!-- star main -->
+        <div class="grid__item-main">
+          <div class="content">
+            <div class="content__left">
+              <div class="carousel">
+                <p class="time-date">
+                  Monday, May 2021 <br />
+                  <span>18:47 AM</span>
+                </p>
+                <div class="video">
+                  <video autoplay muted loop>
+                    <source src="./assets/vid.mp4" type="video/mp4" />
+                  </video>
+                  <div class="label">
+                    <i class="bi bi-camera-video-fill"></i><span>video</span>
+                  </div>
+                </div>
+                <div class="ads ads__empty"></div>
+              </div>
+              <div class="events">
+                <h4 class="events__header">
+                  <i class="bi-calendar-event" style="margin-right: 1em"></i
+                  >Week Calendar
+                </h4>
+                <div class="events__body">
+                  <div class="events__inner">
+                    <div class="events__event">
+                      <div class="events__text">
+                        <h5>Today</h5>
+                        <ul>
+                          <li>9:30 - 11 Seminar</li>
+                          <li>14:00 - 14:30 IDevelop Club meeting</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="events__event">
+                      <div class="events__text">
+                        <h5>Thursday 12</h5>
+                        <ul>
+                          <li>8:00 - Poster Presentation (masters)</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="events__event">
+                      <div class="events__text">
+                        <h5>Saturday 16</h5>
+                        <ul>
+                          <li>8:00 - Start of the 2nd semester exam</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content__right">
+              <h3>About us</h3>
+              <p>
+                IDevelop is a new club created at the university of Tahri
+                Mohamed, Bechar. <br />
+                Our main goals are to discover talent and encourage students to
+                develop their skills, inspire confidence and develop teamwork
+                among them.
+              </p>
+              <img src="./assets/team.png" alt="our team image" />
+            </div>
+          </div>
+        </div>
+        <!-- end main -->
+        <div class="grid__item-footer">
+          <div class="news">
+            <div class="news__title"><span> Latest's </span></div>
+            <div class="news__text">
+              <div class="scroll">
+                <div class="scroll__inner">
+                  The Minister of Higher Education and Scientific Research
+                  congratulated the university family on the occasion of marking
+                  the International Labor Day
+                  <div class="dot"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- qr code -->
+        <img
+          class="qrcode"
+          src="./assets/uni_qrcode.png"
+          alt="university qrcode"
+        />
+        <!-- end qr code -->
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="./js/main.js"></script>
+    <script>
+      HomePage();
+    </script>
+  </body>
+</html>

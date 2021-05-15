@@ -1,0 +1,13 @@
+$primary: #3382bb;
+$secondary: #14344b;
+$primary-text-color: #132d41;
+$secondary-text-color: #687c8b;
+$bg-light: rgba(20, 52, 75, 0.05);
+
+:root {
+  --primary: $primary;
+  --secondary: $secondary;
+  --primary-text-color: $primary-text-color;
+  --secondary-text-color: $secondary-text-color;
+  --bg-light: $bg-light;
+}

@@ -1,0 +1,40 @@
+.grid {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  gap: 0;
+  &__container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 14.45% 77.25% 8.3%;
+  }
+  &__item-header1 {
+    background-color: $primary;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  &__item-header2 {
+    // background-color: $bg-light;
+    border-bottom: 2px solid rgba(16, 23, 41, 0.05);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  &__item-menu {
+    background-color: $primary;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  &__item-footer {
+    z-index: 9999;
+    background-color: $secondary;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  &__item-main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+}

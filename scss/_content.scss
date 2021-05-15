@@ -1,0 +1,49 @@
+$text-color-light: #687c8b;
+$text-color-dark: $secondary;
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  &__one {
+    flex: 1;
+  }
+  &__one,
+  &__left,
+  &__right {
+    padding: 1.2vw;
+  }
+  &__left {
+    background-color: white;
+    flex-basis: 75%;
+    width: 75%;
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+  }
+  &__right {
+    overflow: hidden;
+    height: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    color: $text-color-light;
+    background-color: $bg-light;
+    flex-basis: 28%;
+    width: 28%;
+    h3 {
+      font-size: 2vw;
+      color: $text-color-dark;
+      font-weight: 600;
+    }
+    p {
+      font-size: 1.1vw;
+      line-height: 1.2;
+      padding: 1rem 0;
+      font-weight: 400;
+    }
+    img {
+      border-radius: 0.25rem;
+      border: 2px solid rgba($color: $primary, $alpha: 1);
+    }
+  }
+}

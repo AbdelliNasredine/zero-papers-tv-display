@@ -1,0 +1,44 @@
+.carousel {
+  // background-color: $bg-light;
+  flex: 1;
+}
+
+.time-date {
+  color: $primary;
+  font-weight: 600;
+  font-size: 1.8vw;
+  padding-bottom: 1rem;
+  span {
+    font-weight: 400;
+    font-size: 1.2vw;
+  }
+}
+
+.video {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+    border: 2px solid $primary;
+  }
+  .label {
+    i {
+      padding-right: 1em;
+    }
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    z-index: 999;
+    display: block;
+    position: absolute;
+    padding: 0.5em;
+    top: 0;
+    left: 0;
+    background: $primary;
+    border-bottom-right-radius: 0.5rem;
+  }
+}
